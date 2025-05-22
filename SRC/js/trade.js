@@ -2,11 +2,13 @@
 //業者一覧チェック
 //
 function fnTradeEditCheck() {
+
 	tmp = form.name.value;
-	if (tmp.length < 0) {
+	if (tmp.length == 0) {
 		alert('業者名を入力してください');
 		return;
 	}
+
 	if (tmp.length > 100) {
 		alert('業者名は100文字以内で入力してください');
 		return;
