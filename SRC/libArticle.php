@@ -71,9 +71,9 @@ function subArticle()
 				</tr>
 				<tr>
 					<th>鍵場所</th>
-					<td><input type="text" name="sKeyPlace" value="<?php print $sKagPlace ?>" size="30" /></td>
-					<th>営業担当者</th>
-					<td><input type="text" name="sSellCharge" value="<?php print $sSellCharge ?>" /></td>
+					<<td><input type="text" name="sKeyPlace" value="<?php print $sKeyPlace ?>" size="30" /></td>
+						<th>営業担当者</th>
+						<td><input type="text" name="sSellCharge" value="<?php print $sSellCharge ?>" /></td>
 				</tr>
 			</table>
 		</div>
