@@ -115,7 +115,7 @@ function subConst()
 			<?php
 			$sql = fnSqlConstList(1, $sDel, $sArticle, $sConstTrader, $sConstFlg1, $sConstFlg2, $sConstFlg3, $sConstFlg4, $sInteriorCharge, $sPage, $orderBy, $orderTo);
 			$res = mysqli_query($conn, $sql);
-			var_dump($sql);
+
 			$i = 0;
 			while ($row = mysqli_fetch_array($res)) {
 				$articleNo      = htmlspecialchars($row["ARTICLENO"]);
