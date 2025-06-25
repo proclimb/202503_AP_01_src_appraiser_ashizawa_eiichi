@@ -37,12 +37,13 @@ function fnAdminUserEditCheck() {
 		form.act.value = 'adminUserEditComplete';
 		form.submit();
 	}
+}
 
 
-	function fnAdminUserDeleteCheck(no, nm) {
-		if (confirm('「' + nm + '」を削除します。よろしいですか？')) {
-			form.userNo.value = no;
-			form.act.value = 'adminUserDelete';
-			form.submit();
-		}
+function fnAdminUserDeleteCheck(no, nm) {
+	if (confirm('「' + nm + '」を削除します。よろしいですか？')) {
+		form.userNo.value = no;
+		form.act.value = 'adminUserDelete';
+		form.submit();
 	}
+}
